@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -45,9 +45,110 @@ body {
 
   transition: background-color 0.3s;
 }
+.card-color-1 {
+  background-color: #ead3a7
+}
+.card-color-2 {
+  background-color: #9de0f5
+}
+.card-color-3 {
+  background-color: #ef89ba
+}
+.card-color-4 {
+  background-color: #fae890
+}
+.card-color-5{
+  background-color: #abe9c1
+}
+
+.card-rotation-1{
+  transform: rotate(10deg);
+}
+.card-rotation-2{
+  transform: rotate(-10deg);
+}
+.card-rotation-3{
+  transform: rotate(-5deg);
+}
+.card-rotation-4{
+  transform: rotate(7deg);
+}
+.card-rotation-5{
+  transform: rotate(-2deg);
+}
+.card-rotation-6{
+  transform: rotate(4deg);
+}
+.card-rotation-7{
+  transform: rotate(6deg);
+}
+.card-rotation-8{
+  transform: rotate(-3deg);
+}
+.card-rotation-9{
+  transform: rotate(-2deg);
+}
+.card-rotation-10{
+  transform: rotate(4deg);
+}
+.card-rotation-11{
+  transform: rotate(-4deg);
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2c2c2c;
+  align-self: top;
+
+}
+
+.card-content{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2em;
+  color: #4c4c4c;
+  
+  align-self: center;
+  
+}
 
 .btn > * {
   position: relative;
+}
+
+.card-color{
+  background-color: #ead3a7;
+}
+
+.card{
+  
+  width: 16rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: space-around;
+  
+
+  border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s;
+  padding: 1rem;
+  margin-bottom: 2rem;  
+  
+}
+
+.card-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+  
 }
 
 .btn:before {
@@ -77,4 +178,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
