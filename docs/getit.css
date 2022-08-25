@@ -29,10 +29,13 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
+  /* width: 50%;
+  height: 50%; */
+
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 10px 10px 10px; 
 
   overflow: hidden;
 
@@ -44,6 +47,8 @@ body {
   background-color: #f7d736;
 
   transition: background-color 0.3s;
+
+  font-weight: bold;
 }
 
 .btn > * {
@@ -77,4 +82,63 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  width: 100%;
+  height: 72.5px;
+  background-color: #f7d736;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+  margin-left:10px;
+  padding-top:5px;
+  width: 95px;
+  height: 60px;
+}
+
+.subtitle{  
+  font-size: 20px;
+  margin: 10px;
+  padding-top: 15px;
+}
+
+.main.container{
+  /* width: 35%; */
+  height: 100%;
+}
+
+.form-card{
+  margin: 25px;
+  padding: 7.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 32.5%;
+  height: 6.5rem;
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+}
+
+.form-card-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.autoresize{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
