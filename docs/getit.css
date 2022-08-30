@@ -114,7 +114,8 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-size: 1.2em;
   color: #4c4c4c;
-  
+  justify-content: space-between;
+
   align-self: center;
   
 }
@@ -134,7 +135,7 @@ body {
   display: flex;
   flex-direction: column;
  
-  justify-content: space-around;
+  justify-content: space-between;
   
 
   border-radius: 5px;
